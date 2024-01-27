@@ -1,0 +1,217 @@
+#root{
+  max-width: 1480px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+body{
+  background-color: #473A8D;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+#homeH1{
+  background-color: transparent;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+#play{
+  display: flex;
+  text-align: center;
+  background-color: green;
+  color: white;
+  font-size: 16px;
+  border-radius: 2rem;
+  padding: 10px 70px;
+}
+
+.homecomp{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25%;
+  margin-bottom: 25%;
+}
+
+.question{
+  width: 900px;
+  height: 500px;
+  padding: 2%;
+  background-color: white;
+  margin: 10% auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.q{
+  text-align: center;
+  color: #000;
+  font-weight: 500;
+  background-color: white;
+  position: absolute;
+  margin: 0;
+  top: 4px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+h1{
+  background-color: white;
+  color: blue;
+  text-align: center;
+}
+
+h2{
+  color: green;
+  text-align: center;
+}
+
+h3{
+  text-align: center;
+  background-color: white;
+  color: black;
+  margin: 0;
+  position: absolute;
+  top: 150px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+h5{
+  text-align: left;
+  background-color: white;
+  margin: 5px;
+  position: absolute;
+  top: 95px;
+  left: 10px;
+}
+
+.options{
+  margin-top: 2%;
+  background-color: white;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+  justify-content: center;
+  position: absolute;
+  top: 210px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.optionButton{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1EA1F1;
+  color: white;
+  width: 400px;
+  border-radius: 20px;
+  font-size: 16px;
+  padding: 10px 20px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.submit{
+  background-color: white;
+  display: flex;
+  margin-top: 5%;
+  justify-content: center;
+  position: absolute;
+  top: 350px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.submit1{
+  background-color: #3E7EAA;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin: 0 10px;
+}
+
+.submit2{
+  background-color: #008001;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin: 0 10px;
+}
+
+.submit3{
+  background-color: #FF0000;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin: 0 10px;
+}
+
+.box{
+  padding: 1%;
+  margin-left: 25%;
+  margin-right: 25%;
+  background-color: white;
+}
+
+table{
+  background-color: white;
+}
+
+td{
+  height: 30px;
+  background-color: white;
+  padding: 8px;
+}
+
+.output{
+  display: flex;
+  justify-content: center;
+  margin-top: 1%;
+}
+
+.outputButton1{
+  color: #B0B0E1;
+  background-color: white;
+  margin-right: 1%;
+}
+
+.outputButton2{
+  color: #198B19;
+  background-color: white;
+  margin-left: 1%;
+}
+
+.result{
+  width: 1200px;
+  height: 600px;
+}
+
+.card{
+  padding: 2em;
+}
+
+.read-the-docs{
+  color: #888;
+}
+
+.result-table{
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.resultBreakdown{
+  display: flex;
+  justify-content: start;
+}
